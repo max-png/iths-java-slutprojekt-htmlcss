@@ -1,0 +1,23 @@
+{
+  "name": "iths-java-slutprojekt-htmlcss",
+  "version": "1.0.0",
+  "description": "Slutprojekt i html och css",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/max-png/iths-java-slutprojekt-htmlcss.git"
+  },
+  "keywords": [],
+  "author": "Max Rune",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/max-png/iths-java-slutprojekt-htmlcss/issues"
+  },
+  "homepage": "https://github.com/max-png/iths-java-slutprojekt-htmlcss#readme",
+  "dependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
