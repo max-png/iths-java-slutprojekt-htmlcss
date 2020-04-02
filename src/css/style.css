@@ -1,0 +1,53 @@
+body {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+}
+
+.menu {
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4vh;
+}
+
+.title{
+    font-size: 1.5em;
+}
+
+.menu p{
+    line-height: 24px;
+    font-size: 0.7rem;
+    padding: 0;
+    margin: 0;
+}
+
+.main_content{
+    padding: 14px;
+    background-color: salmon;
+    max-width: 30vw;
+    min-width: 375px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.profile_pic{
+    margin: 0 auto;
+    background-image: url(/img/emil.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 446px;
+    height: 100%;
+    width: 100%;
+}
