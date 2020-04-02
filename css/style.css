@@ -49,7 +49,7 @@ a:hover {
 
 .profile_pic{
     margin: 0 auto;
-    background-image: url(img/emil.jpg);
+    background-image: url('/img/emil.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 446px;
