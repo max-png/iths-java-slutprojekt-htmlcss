@@ -29,6 +29,7 @@ a:hover {
 
 .selected {
     font-style: italic;
+    font-weight: 700;
 }
 
 .menu p{
@@ -55,4 +56,15 @@ a:hover {
     min-width: 360px;
     height: 100%;
     width: 100%;
+}
+
+.project {
+    font-style: italic;
+    margin-bottom: 2rem;
+}
+.project p {
+    line-height: 24px;
+}
+.project h2{
+    font-style: normal;
 }
