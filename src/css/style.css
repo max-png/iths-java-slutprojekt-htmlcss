@@ -16,14 +16,19 @@ a:hover {
 }
 
 .menu {
+    position: sticky;
+    top: 0;
     padding: 12px;
     display: flex;
     flex-direction: column;
-    margin-bottom: 4vh;
 }
 
 .title{
     font-size: 1.5em;
+}
+
+.selected {
+    font-style: italic;
 }
 
 .menu p{
@@ -35,7 +40,6 @@ a:hover {
 
 .main_content{
     padding: 14px;
-    background-color: salmon;
     max-width: 30vw;
     min-width: 375px;
     width: 100%;
@@ -46,8 +50,9 @@ a:hover {
     margin: 0 auto;
     background-image: url(/img/emil.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     min-height: 446px;
+    min-width: 360px;
     height: 100%;
     width: 100%;
 }
