@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script/js_login.js"></script>
+    <title>Logga in</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav class="menu">
+            <p><a href="index.html" class="title">Nilsson KM</a></p>
+            <p><a href="om.html">Om</a></p>
+            <p><a href="projekt.html">Projekt</a></p>
+            <p><a href="kontakt.html">Kontakt</a></p>
+        </nav>
+        <div class="main_content">
+            <h2>Admin</h2>
+            <form id="form_id" method="POST" name="login_form">
+                <label>Användarnamn:</label>
+                <input type="text" name="username" id="username" />
+                <label>Lösenord:</label>
+                <input type="password" name="password" id="password" />
+                <input type="button" value="Logga in" id="submit" onclick="validate()" />
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
