@@ -7,8 +7,9 @@
 #	
 #	1. Gör klart skiss på Figma : check
 #	2. Installera node.js och få sass att fungera. (kanske skippar detta)
-#	3. Strukturera index.html och content på alla sidor
-#	4. Stajla utifrån desktop mode men ha upplösningen 375x812 i åtanke
+#	3. Strukturera index.html och content på alla sidor: check
+#	4. Stajla utifrån desktop mode men ha upplösningen 375x812 i åtanke: check
 #		i css/sass (iom min enkla design kanske sass är överflödigt, men jag borde testa i alla fall)
 #	5. Kolla hur det ser ut i upplösning för iphone 11 pro / x och pilla med det.
 #	6. Byt ut mockinnehållet på sidan till det slutgiltiga
+#   7. Fixa möjlighet att logga in och uppdatera sidan för slutanvändare, i.e. lägga till nya projekt, bilder m.m.
